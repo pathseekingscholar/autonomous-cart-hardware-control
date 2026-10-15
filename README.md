@@ -2,7 +2,7 @@
 
 **Vedarsh Mishra** · Team project with Tyler Potsiadlo and Tianxiang Liu · Boston College CSCI 3387 (Topics in Computational Intelligence), Spring 2026
 
-This repository is the **original control platform** I built for our team's autonomous cart: a Raspberry Pi agent that drives the motors and streams the camera, a laptop web dashboard for connection and manual control, and the scripts that deploy everything to the Pi over SSH. It is the code as it existed on **March 30 – April 1, 2026**, developed locally before it was uploaded to the team repository ([MPJL9/Autonomous-Shopping-Cart](https://github.com/MPJL9/Autonomous-Shopping-Cart), commit of April 3, 2026). It was published as this standalone repository in October 2026.
+This repository is the **original control platform** I built for our team's autonomous cart: a Raspberry Pi agent that drives the motors and streams the camera, a laptop web dashboard for connection and manual control, and the scripts that deploy everything to the Pi over SSH. It is the code as it existed on **March 30 – April 1, 2026**, developed locally before it was uploaded to the team repository ([MPJL9/Autonomous-Shopping-Cart], commit of April 3, 2026). It was published as this standalone repository in October 2026.
 
 The robot is a **15 cm tabletop research prototype**, not a full-size shopping cart. My teammates later built the perception, data-collection and learned-control software on top of this platform (see [Credits](#credits-and-project-context)). That work is not in this repository.
 
@@ -116,7 +116,7 @@ docs/           images/, ORIGINAL_README_2026-04-01.md
 - **Course:** Boston College CSCI 3387, Topics in Computational Intelligence, Spring 2026. Team: Tyler Potsiadlo, Tianxiang Liu, Vedarsh Mishra.
 - **Tianxiang Liu** built the later perception stack (ArUco/ChArUco calibration, YOLO-Pose), the data-collection pipeline and an expanded dashboard, and developed the behavior-cloning and AWR training and evaluation pipelines.
 - **Tyler Potsiadlo** built the early reinforcement-learning frameworks and evaluated and selected the learned policies.
-- Their work, including the final autonomous-following results, is in the team repository: [MPJL9/Autonomous-Shopping-Cart](https://github.com/MPJL9/Autonomous-Shopping-Cart). My original working copy also held early files from them (Tianxiang's `Jimmy/` CV folder; Tyler's RL notebooks and milestone PDF). Those are not included here and remain in the team repository.
+- Their work, including the final autonomous-following results, is in the team repository: [MPJL9/Autonomous-Shopping-Cart]. My original working copy also held early files from them (Tianxiang's `Jimmy/` CV folder; Tyler's RL notebooks and milestone PDF). Those are not included here and remain in the team repository.
 
 ## About this repository
 
